@@ -143,7 +143,7 @@ input, select, textarea {
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: -2.5em 0 2em 0;
 	}
 
 		header > p {
@@ -1729,7 +1729,7 @@ input, select, textarea {
 /* Sections/Article */
 
 	section, article {
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 
 		section > :last-child,
@@ -1942,13 +1942,14 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
+		font-size: 1em;
 		position: relative;
 		display: inline-block;
 		border-radius: 0.35em;
-		color: #fff !important;
+		color: #ffffff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #cbc7b7;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1966,7 +1967,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #d695b2;
 		}
 
 		input[type="button"]:active,
@@ -2112,7 +2113,7 @@ input, select, textarea {
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.56em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
@@ -2247,12 +2248,12 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #54638b;
+				background-color: #54638b6c;
 				background-image: url("/images/FinalBanner.png");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: rgb(228, 218, 209);
 			}
 
 			#main > section.three {
@@ -2260,7 +2261,7 @@ input, select, textarea {
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #B5D2DD;
 			}
 
 /* Wide */
@@ -2304,7 +2305,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 1em 0em;
 			}
 
 	}
@@ -2320,7 +2321,7 @@ input, select, textarea {
 			}
 
 			.container {
-				padding: 0 2em 0 2em;
+				padding: 0 2em 0em 2em;
 			}
 
 		/* Icons */
@@ -2332,7 +2333,7 @@ input, select, textarea {
 		/* Item */
 
 			.item {
-				margin-bottom: 20px;
+				margin-bottom: 0px;
 			}
 
 		/* Header */
@@ -2343,7 +2344,7 @@ input, select, textarea {
 
 			#logo .image {
 				position: relative;
-				margin: 0 0 0.5em 0;
+				margin: 0 0 .5em 0;
 			}
 
 			#nav ul li a {
