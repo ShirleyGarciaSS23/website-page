@@ -1857,14 +1857,14 @@ article:last-child {
 }
 
 .image.avatar90 {
-  width: 90px;
-  height: 95px;
+  width: 95px;
+  height: 90px;
   background: #f00;
 }
 
 .image.avatar90 img {
-  width: 90px;
-  height: 95px;
+  width: 95px;
+  height: 90px;
 }
 
 .image.fit {
